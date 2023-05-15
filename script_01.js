@@ -17,11 +17,16 @@ output(getSentence(["Bist","du","Max"],"Q"));
 output(getSentence(["Ich","bin"],"E"));
 output(getSentence(["Ich","hätt","gern","die","Platt","von","dene","zwei","diwodaso","Spass","mache,","habbe","Sie","die"],"Q"));
 
-function getSentence(arr,op) {
-   
-   
-   
-     return "toDo";
+function getSentence(arr, op) {
+  if (op === "S") {
+        return arr.join(" ");
+  } else if (op === "Q") {
+        return arr.join(" ") + "?";
+  } else if (op === "E") {
+        return arr.join(" ") + "!";
+  } else {
+        return "Invalid operation";
+  }
 }
 
 
