@@ -1,6 +1,6 @@
 
 /*** Mini-Challenge  */
-// Satzbau + Punktuation
+// Satzbau + variable Punktuation
 
 // Vereinbarung:
 // "S" (sentence) --> "."  Ich bin Max.
